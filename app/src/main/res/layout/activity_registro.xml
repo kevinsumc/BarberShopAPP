@@ -1,0 +1,39 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent" android:layout_height="match_parent" tools:context=".Registro" android:orientation="vertical" android:background="@color/blue">
+    <TextView android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Crear nueva cuenta"
+        android:textSize="90px" android:textAlignment="center"
+        android:textColor="@color/white" android:fontFamily="sans-serif-black"/>
+
+    <ImageView android:layout_width="match_parent"
+        android:layout_height="500px" android:src="@drawable/user"/>
+    <EditText android:id="@+id/nombreUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nombre" android:maxLines="1"
+        android:inputType="text" android:gravity="center"
+        android:padding="15dp" android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp" android:background="@drawable/border"
+        android:layout_marginTop="20dp"/>
+
+    <EditText android:id="@+id/emailUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email" android:maxLines="1"
+        android:inputType="text" android:gravity="center"
+        android:padding="15dp" android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp" android:background="@drawable/border"
+        android:layout_marginTop="10dp"/>
+
+    <EditText android:id="@+id/contrasenaUser"
+        android:layout_marginTop="10dp" android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:hint="Contraseña"
+        android:maxLines="1" android:inputType="textPassword"
+        android:gravity="center" android:padding="15dp"
+        android:layout_marginStart="40dp" android:layout_marginEnd="40dp"
+        android:background="@drawable/border"/>
+
+    <EditText android:id="@+id/reiterarContra" android:layout_marginTop="10dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Reiterar Contaseña" android:maxLines="1" android:inputType="textPassword" android:gravity="center" android:padding="15dp" android:layout_marginStart="40dp" android:layout_marginEnd="40dp" android:background="@drawable/border"/>
+    <Button android:id="@+id/btnRegistrarse" android:layout_marginTop="20dp" android:layout_marginStart="40dp" android:layout_marginEnd="40dp" android:padding="11dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Registrarse" android:textSize="60px"/>
+    <Button android:id="@+id/btnSalir" android:layout_marginStart="40dp" android:layout_marginEnd="40dp" android:padding="11dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Salir" android:textSize="60px"/>
+</LinearLayout>

@@ -1,0 +1,45 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent" android:layout_height="match_parent" tools:context=".MainActivity" android:orientation="vertical" android:background="@color/blue">
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Barber Shop" android:textSize="90px" android:textAlignment="center" android:textColor="@color/white" android:fontFamily="sans-serif-black"/>
+    <ImageView android:layout_width="match_parent" android:layout_height="300dp"/>
+    <EditText android:id="@+id/emailUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email" android:maxLines="1"
+        android:inputType="text" android:gravity="center"
+        android:padding="15dp" android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp" android:background="@drawable/border"/>
+
+    <EditText android:id="@+id/Contraseña"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Contraseña" android:maxLines="1"
+        android:inputType="textPassword" android:gravity="center"
+        android:padding="15dp" android:layout_marginTop="15dp"
+        android:layout_marginStart="40dp" android:layout_marginEnd="40dp"
+        android:background="@drawable/border"/>
+
+    <Button android:id="@+id/btnEntrar"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"
+        android:padding="11dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Entrar" android:textSize="60px"/>
+
+    <Button android:id="@+id/btnRegistrar"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"
+        android:padding="11dp" android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Registrarse"
+        android:textSize="60px"/>
+
+    <TextView android:layout_marginTop="100dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Developer by Kevin Sum"
+        android:gravity="center" android:textColor="@color/white"
+        android:fontFamily="sans-serif-black"/>
+
+</LinearLayout>
